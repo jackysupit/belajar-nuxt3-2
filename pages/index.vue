@@ -5,6 +5,14 @@
       This is an auto-imported component
     </AppAlert>
 
+ICONS: <br/>
+<Icon name="logos:google-icon"></Icon> <br/>
+<Icon name="logos:facebook"></Icon> <br/>
+<Icon name="logos:apple" fill="#97a3b6"></Icon> <br/>
+
+
+
+
 hasilTambah = {{hasilTambah}} <hr/>
 hasilKali = {{hasilKali}} <hr/>
 hasilBagi = {{hasilBagi}} <hr/>

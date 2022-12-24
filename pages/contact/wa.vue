@@ -1,8 +1,14 @@
 <template>
     <div>
-        <h1>
+        <h1 class="title">
             ini route /contact/wa
         </h1>
+        <br/>
+        
+ICONS: <br/>
+<Icon name="logos:google-icon"></Icon> <br/>
+<Icon name="logos:facebook"></Icon> <br/>
+<Icon name="logos:apple" fill="#97a3b6"></Icon> <br/>
 
 
         angka = {{ angka }} <hr/>
@@ -13,11 +19,10 @@
         getKurang = {{ getKurang }} <hr/>        
 
 
-<button @click="tambah" >Tambah</button>
-<button @click="kurang" >Kurang</button>
-
-<button @click="menambah" >menambah</button>
-<button @click="mengurang" >mengurang</button>
+<button class="btn btn-primary" @click="tambah" >Tambah</button>
+<button class="btn btn-primary" @click="kurang" >Kurang</button>
+<button class="btn btn-primary" @click="menambah" >menambah</button>
+<button class="btn btn-primary" @click="mengurang" >mengurang</button>
 
     </div>
 </template>
